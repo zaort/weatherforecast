@@ -1,0 +1,71 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-black {
+    background-color: #000 !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.border-secondary {
+    border-color: #6c757d !important;
+}
+
+/* Header */
+header.jumbotron {
+    padding: 32px 16px;
+    border-bottom: 8px solid #000;
+}
+
+/* Aside */
+div.aside-col {
+    background-color: #343a40;
+}
+
+/* Main Content */
+.col-md-9 main {
+    color: #fff;
+}
+
+/* Forecast Cards */
+.card-deck .card {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+/* Footer */
+footer.footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.card-day {
+    background-color: #343a40;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.card-day .card-body {
+    padding: 10px;
+}
+
+.card-day .card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-day .card-icon img {
+    width: 50px; /* Adjust as needed */
+}
+
+.card-day .card-text {
+    font-size: 14px;
+}
